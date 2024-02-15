@@ -4,10 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BarberShop</title>
-    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,700;1,700&display=swap"
+      rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<header>
     <header class="global-header">
         <a href="index.html">
         <img src="./images/logo.svg" alt="logo-barbershop"></a>
@@ -16,10 +23,10 @@
         <nav class="nav-menu">
             <ul>
                 <li>
-                    <a href="about.html" class="active">About</a>
+                    <a href="index.html">About</a>
                 </li>
                 <li>
-                    <a>Services and Prices</a>
+                    <a href="about.html">Services and Prices</a>
                 </li>
                 <li>
                     <a>Barbers</a>
@@ -30,12 +37,12 @@
             </ul>
         </nav>
     
-    <a href="tel:+38 044 111 11 11">+38 044 111 11 11</a>
+    <a href="tel:+38 044 111 11 11" class="contact">+38 044 111 11 11</a>
     
-    <button type="button">Book a service</button>
+    <button type="button" class="button-service">Book a service</button>
    
     <!-- Links section to YT and Instagram -->
-    <section>
+    <section class="social-links-section">
         <a 
         href="https://www.youtube.com"
         rel="noopener norefferer nofollow"
@@ -49,13 +56,19 @@
         >
         <img src="./images/linie.png" alt="">
     </section>
+   </header>
 </body>
 
+<!-- Hero section -->
 <main>
-    <section>
+    <section class="hero-section">
+
         <hr />
+
         <span>A hair salon for men in Kyiv</span>
-        <h1>BarberShop</h1>
+
+        <h1 class="hero-title">BarberShop</h1>
+
         <p>We are experts in trendy men's haircuts.
             We work quickly, carefully, and tastefully.</p>
         </section>
@@ -220,13 +233,18 @@
                 <p>Daily from 9:00 AM till 22:00 PM</p>
               </section>
             </main>
-                
+               
+            <!-- Footer -->
             <footer>
               <p>&copy; Copyright 2022</p>
               <hr />
-              <ul>
-                <li><a href="">Instagram</a></li>
-                <li><a href="">Youtube</a></li>
+              <ul class="social-links-section">
+                <li><a href="https://www.instagram.com"
+                       rel="noopener norefferer nofollow"
+                      target="_blank">Instagram</a></li>
+                <li><a href="https://www.youtube.com"
+                       rel="noopener norefferer nofollow"
+                       target="_blank">Youtube</a></li>
               </ul>
             </footer>
 </main>
